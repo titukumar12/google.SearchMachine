@@ -12,8 +12,7 @@ public String password;
 public static final String csvfile = "./src/test/java//user.csv";
 
 public static void main(String[]args){
-	
-	readCsv rc = new readCsv();
+		readCsv rc = new readCsv();//gfjdgsfkj
 	rc.readCredentials("paul1");
 }
 public void readCredentials(String customer) {
@@ -39,7 +38,7 @@ public void readCredentials(String customer) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	
+	System.out.println();
 	
 }
 
